@@ -32,7 +32,7 @@ mov $0x2, %bx
 
 int $0x10
 
-ljmp $0, $_start 
+jmp .
 
 message:
 .ascii "1 MBR"
